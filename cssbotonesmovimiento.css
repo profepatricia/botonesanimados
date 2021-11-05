@@ -1,0 +1,79 @@
+*{
+    font-family: Arial;
+    font-size: 30px;
+}
+.botonesanimados{
+    display: flex;
+    width: 90%;
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.botonazul{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    border:black solid;
+    transition:  200ms ease;
+}
+
+.botonrojo{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    border:black solid;
+   
+
+}
+.botonverde{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(60, 255, 0);
+    padding: 10px;
+    margin: 10px;
+    border:black solid;
+    transition:  250ms ease;
+}
+.botonamarillo{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(217, 255, 0);
+    padding: 10px;
+    margin: 10px;
+    border:black solid;
+    transition:  250ms ease;
+
+}
+.botonazul:hover{
+
+}
+.botonrojo a{
+    text-decoration: none;
+}
+.botonverde a{
+    text-decoration: none;
+}
+.botonamarillo a{
+    text-decoration: none;
+}
+
+.botonazul:hover{
+    transform: scale(2);
+
+}
+.botonverde:hover{
+    transform: translate(100px, 100px);
+}
+
+.botonrojo:hover{
+   tranform: color(blue);
+}
+.botonamarillo:hover{
+    transform: rotate(60deg);
+}
